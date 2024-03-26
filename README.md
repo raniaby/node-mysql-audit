@@ -36,9 +36,10 @@ setupDatabaseAudit(userId, username);
 
 ## Configuration
 
-You can configure the exceptions for auditing by editing the exceptions.json file.
+You can configure the exceptions which are excluded from auditing by editing the auditConfig.json file.
 
-Example exceptions.json
+
+Example auditConfig.json
 ```json
 {
   "exceptions": ["auditlog"]
